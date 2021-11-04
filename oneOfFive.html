@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<script type="text/javascript">
+	var firstLength = prompt("Please enter a length: ");
+	var secondLength = prompt("Please enter a length: ");
+	var thirdLength = prompt("Please enter a length: "); 
+
+	if (firstLength == secondLength && secondLength == thirdLength &&
+        firstLength == thirdLength){
+		window.alert("The triangle is equilateral.");
+	}
+
+	else if (firstLength == secondLength || firstLength ==
+		thirdLength || secondLength == thirdLength){
+		window.alert("The triangle is isosceles.");
+	}
+
+	else {
+		window.alert("The triangle is scalene.");
+	}
+
+</script>
+</head>
+<body>	
+</body>	
+</html>
